@@ -1,0 +1,2 @@
+# VinaProcess
+Automatized Docking Algorithm
