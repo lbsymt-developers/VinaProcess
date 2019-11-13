@@ -1,12 +1,12 @@
 # VinaProcess
 Automatized Docking Algorithm
 
-## Dependences
+# Dependences
 Linux OS
 
 Python
 
-## Instalation
+# Installation
 
 Extract file vinaprocess-0.04.tgz
 
@@ -20,7 +20,7 @@ set variable VINAPROCESS to the root of the extracted directory
 
 export VINAPROCESS=/Directory/of/the/vivaprocess/home
 
-## Running
+# Usage
 
 In a directory with 2 coumpounds to study (eg ligand.pdb and receptor.pdb)in pdb format file,
 
