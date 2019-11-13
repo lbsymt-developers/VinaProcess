@@ -44,7 +44,7 @@ $VINAPROCESS/vina-process.pl -h
 ```
 
 
- ##### OPTIONS:
+ ##### Options:
   
     -r : Receptor file (pdb format)
     
