@@ -3,6 +3,7 @@ Automatized Docking Algorithm
 
 ## Dependences
 * Linux OS
+* Perl
 * Python
 
 ## Installation
