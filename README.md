@@ -12,7 +12,7 @@ Extract file vinaprocess-0.04.tgz
 
 ```
 gunzip /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tgz
-tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.ta
+tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tar
 
 ```
 
@@ -39,14 +39,14 @@ To run on a single thread:
 $VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
 ```
 
-To have more help:
+##### For more help:
 
 ```
 $VINAPROCESS/vina-process.pl -h
 ```
 
 
-  OPTIONS:
+ ##### OPTIONS:
   
     -r : Receptor file (pdb format)
     
