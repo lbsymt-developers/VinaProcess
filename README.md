@@ -1,26 +1,28 @@
 # VinaProcess
 Automatized Docking Algorithm
 
-# Dependences
+## Dependences
 Linux OS
 
 Python
 
-# Installation
+## Installation
 
 Extract file vinaprocess-0.04.tgz
 
+```
 gunzip /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tgz
+tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.ta
 
-tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tar
-
-
+```
 
 set variable VINAPROCESS to the root of the extracted directory 
 
+```
 export VINAPROCESS=/Directory/of/the/vivaprocess/home
+```
 
-# Usage
+## Usage
 
 In a directory with 2 coumpounds to study (eg ligand.pdb and receptor.pdb)in pdb format file,
 
@@ -33,12 +35,15 @@ It's not obligatory to have the 2 files of coumpound inside the directory of wor
 
 To run on a single thread:
 
+```
 $VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
-
+```
 
 To have more help:
 
+```
 $VINAPROCESS/vina-process.pl -h
+```
 
 
   OPTIONS:
