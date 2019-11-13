@@ -12,7 +12,6 @@ Extract file vinaprocess-0.04.tgz
 ```
 gunzip /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tgz
 tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tar
-
 ```
 
 set variable VINAPROCESS to the root of the extracted directory 
@@ -57,7 +56,7 @@ $VINAPROCESS/vina-process.pl -h
  
 ## Developers
 
-* M. en MM. Nidia Ednita Beltrán Hernández 1
+* M. en MM. Nidia Beltrán Hernández 1
 * M. en C. Jerome Verleyen 2
 * Dr. Fidel Alejandro Sánchez Flores 2
 * Dr. Heriberto Manuel Rivera 1
