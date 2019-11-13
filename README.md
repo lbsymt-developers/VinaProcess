@@ -8,16 +8,17 @@ Python
 
 ## Instalation
 
-Extract file vinaprocess-0.01.tgz
+Extract file vinaprocess-0.04.tgz
 
 gunzip /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tgz
 
 tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tar
 
 
+
 set variable VINAPROCESS to the root of the extracted directory 
 
-eg: export VINAPROCESS=/Directory/of/the/vivaprocess/home
+export VINAPROCESS=/Directory/of/the/vivaprocess/home
 
 ## Running
 
@@ -29,13 +30,16 @@ Inside, you will obtain the resulting coumpound in format of "energy-receptor-li
 
 It's not obligatory to have the 2 files of coumpound inside the directory of work.
 
+
 To run on a single thread:
 
-$VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb -c 1 
+$VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
+
 
 To have more help:
 
 $VINAPROCESS/vina-process.pl -h
+
 
   OPTIONS:
   
