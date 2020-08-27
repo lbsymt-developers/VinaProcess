@@ -18,7 +18,7 @@ tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tar
 set variable VINAPROCESS to the root of the extracted directory 
 
 ```
-export VINAPROCESS=/Directory/of/the/vivaprocess/home
+export VINAPROCESS=/Directory/of/the/vinaprocess/home
 ```
 
 ## Usage
