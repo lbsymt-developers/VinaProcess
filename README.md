@@ -11,8 +11,8 @@ Automatized Docking Algorithm
 Extract file vinaprocess-0.04.tgz
 
 ```
-gunzip /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tgz
-tar -vxf /Directory/of/the/vivaprocess/home/vinaprocess-0.04.tar
+gunzip /Directory/of/the/vinaprocess/home/vinaprocess-0.04.tgz
+tar -vxf /Directory/of/the/vinaprocess/home/vinaprocess-0.04.tar
 ```
 
 set variable VINAPROCESS to the root of the extracted directory 
