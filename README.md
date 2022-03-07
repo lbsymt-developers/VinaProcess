@@ -29,15 +29,16 @@ export VINAPROCESS=/Directory/of/the/vinaprocess/home
 $VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
 ```
 
+
 ##### Notes:
 
-In a directory with 2 coumpounds to study (eg ligand.pdb and receptor.pdb)in pdb format file,
+In a directory with the ligand and receptor in pdb format file,
 
-the programm will create a directory of the format YYYYMMDDHHMM from the date.
+the program will create a directory of the format YYYYMMDDHHMM from the date.
 
-Inside, you will obtain the resulting coumpound in format of "energy-receptor-lingand-X-Y-Z". 
+Inside, you will obtain the resulting compound in format of "energy-receptor-lingand-X-Y-Z".
 
-It's not obligatory to have the 2 files of coumpound inside the directory of work.
+It's not obligatory to have the 2 files of compound inside the directory of work.
 
 
 
