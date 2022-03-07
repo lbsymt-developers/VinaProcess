@@ -29,6 +29,7 @@ export VINAPROCESS=/Directory/of/the/vinaprocess/home
 $VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
 ```
 
+##### Notes:
 
 In a directory with 2 coumpounds to study (eg ligand.pdb and receptor.pdb)in pdb format file,
 
