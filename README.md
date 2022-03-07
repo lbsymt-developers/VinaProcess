@@ -15,13 +15,20 @@ gunzip /Directory/of/the/vinaprocess/home/vinaprocess-0.04.tgz
 tar -vxf /Directory/of/the/vinaprocess/home/vinaprocess-0.04.tar
 ```
 
+## Usage
+
 set variable VINAPROCESS to the root of the extracted directory 
 
 ```
 export VINAPROCESS=/Directory/of/the/vinaprocess/home
 ```
 
-## Usage
+##### To run on a single thread:
+
+```
+$VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
+```
+
 
 In a directory with 2 coumpounds to study (eg ligand.pdb and receptor.pdb)in pdb format file,
 
@@ -32,11 +39,7 @@ Inside, you will obtain the resulting coumpound in format of "energy-receptor-li
 It's not obligatory to have the 2 files of coumpound inside the directory of work.
 
 
-##### To run on a single thread:
 
-```
-$VINAPROCESS/vina-process.pl -r receptor.pdb -l ligand.pdb 
-```
 
 ##### For more help:
 
